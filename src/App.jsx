@@ -1,4 +1,5 @@
 import './App.css'
+import Accordion from './components/Accordion'
 import FlashCards from './components/FlashCards'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       {/* <SearchFilter /> */}
       {/* <Checklist /> */}
+      <Accordion/>
       <FlashCards/>
     </>
   )

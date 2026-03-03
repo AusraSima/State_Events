@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function FlashCards() {
   return (
-    <div className="flex flex-wrap justify-between">
+    <div className="flex flex-wrap justify-between mt-20">
       {cardstexts.map((cardtext) => (
         <Card cardtext={cardtext} key={cardtext.id} />
       ))}
